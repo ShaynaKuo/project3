@@ -1,0 +1,138 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Quicksand:wght@300;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #33A6C7; /* Soft blue background */
+    padding: 10px 0; /* Compact space */
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo {
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 5px 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Highlighted Separator */
+.highlight {
+    color: #FF69B4; /* Cute pink highlight */
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* Subtext Styling */
+header p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #fff;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: #33d1c0;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Two-Column Layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Sidebar (Quick Facts) */
+.sidebar {
+    background-color: #fef9e7;
+    padding: 15px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #ff6f61;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* Attractions & Locations Section */
+.attractions-locations {
+    padding: 20px;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    flex: 2;
+    text-align: center;
+}
+
+/* Grid Layout for Locations */
+.locations-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling for Individual Locations */
+.location {
+    text-align: center;
+}
+
+/* Uniform Image Size */
+.location img {
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #33A6C7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
